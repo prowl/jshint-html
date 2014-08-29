@@ -13,4 +13,4 @@ var paths = {
   lines_threshold: 80
 };
 
-require('./lib/gulp')(gulp, paths);
+require('gulp-module')(gulp, paths);
