@@ -1,6 +1,6 @@
 {
   "name": "jshint-html",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HTML Reporter for JSHINT",
   "main": "lib/index.js",
   "scripts": {
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "gulp": "^3.8.7",
-    "gulp-module": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module/-/latest.tgz"
+    "gulp-module": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module/-/latest.tgz",
+    "should": "^4.0.4"
   }
 }
