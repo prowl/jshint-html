@@ -1,0 +1,256 @@
+{
+  "aggregate": {
+    "sloc": {
+      "logical": 25,
+      "physical": 63
+    },
+    "cyclomatic": 1,
+    "halstead": {
+      "operators": {
+        "distinct": 8,
+        "total": 62,
+        "identifiers": [
+          "var",
+          "=",
+          "()",
+          "{}",
+          ".",
+          "function",
+          ":",
+          "return"
+        ]
+      },
+      "operands": {
+        "distinct": 39,
+        "total": 74,
+        "identifiers": [
+          "\"use strict\"",
+          "fs",
+          "\"fs\"",
+          "require",
+          "path",
+          "\"path\"",
+          "_",
+          "\"lodash\"",
+          "mkdirp",
+          "\"mkdirp\"",
+          "conf",
+          null,
+          "reporterObj",
+          "<anonymous>",
+          "reporter",
+          "results",
+          "outputFile",
+          "\"outputFile\"",
+          "templateFile",
+          "__dirname",
+          "\"../templates/template.html\"",
+          "resolve",
+          "template",
+          "encoding",
+          "\"UTF-8\"",
+          "readFileSync",
+          "compileTemplate",
+          "data",
+          "html",
+          "writeFile",
+          "fp",
+          "dir",
+          "dirname",
+          "sync",
+          "writeFileSync",
+          "module",
+          "exports",
+          "init",
+          "config"
+        ]
+      },
+      "length": 136,
+      "vocabulary": 47,
+      "difficulty": 7.589743589743589,
+      "volume": 755.4240838281587,
+      "effort": 5733.475097772692,
+      "bugs": 0.25180802794271956,
+      "time": 318.5263943207051
+    },
+    "params": 4,
+    "line": 1,
+    "cyclomaticDensity": 4
+  },
+  "functions": [
+    {
+      "name": "reporter",
+      "sloc": {
+        "logical": 9,
+        "physical": 16
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 6,
+          "total": 25,
+          "identifiers": [
+            "var",
+            "=",
+            ".",
+            "()",
+            "{}",
+            ":"
+          ]
+        },
+        "operands": {
+          "distinct": 20,
+          "total": 30,
+          "identifiers": [
+            "results",
+            "outputFile",
+            "conf",
+            "\"outputFile\"",
+            "templateFile",
+            "__dirname",
+            "\"../templates/template.html\"",
+            "path",
+            "resolve",
+            "template",
+            "<anonymous>",
+            "encoding",
+            "\"UTF-8\"",
+            "fs",
+            "readFileSync",
+            "compileTemplate",
+            "_",
+            "data",
+            "html",
+            "writeFile"
+          ]
+        },
+        "length": 55,
+        "vocabulary": 26,
+        "difficulty": 4.5,
+        "volume": 258.5241844977601,
+        "effort": 1163.3588302399203,
+        "bugs": 0.08617472816592002,
+        "time": 64.63104612444002
+      },
+      "params": 1,
+      "line": 17,
+      "cyclomaticDensity": 11.11111111111111
+    },
+    {
+      "name": "writeFile",
+      "sloc": {
+        "logical": 3,
+        "physical": 7
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 4,
+          "total": 8,
+          "identifiers": [
+            "var",
+            "=",
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 9,
+          "total": 13,
+          "identifiers": [
+            "data",
+            "fp",
+            "dir",
+            "path",
+            "dirname",
+            "mkdirp",
+            "sync",
+            "fs",
+            "writeFileSync"
+          ]
+        },
+        "length": 21,
+        "vocabulary": 13,
+        "difficulty": 2.888888888888889,
+        "volume": 77.70923408096293,
+        "effort": 224.49334290055958,
+        "bugs": 0.025903078026987644,
+        "time": 12.471852383364421
+      },
+      "params": 2,
+      "line": 42,
+      "cyclomaticDensity": 33.33333333333333
+    },
+    {
+      "name": "init",
+      "sloc": {
+        "logical": 3,
+        "physical": 7
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 5,
+          "total": 5,
+          "identifiers": [
+            "=",
+            "()",
+            "{}",
+            ".",
+            "return"
+          ]
+        },
+        "operands": {
+          "distinct": 5,
+          "total": 7,
+          "identifiers": [
+            "config",
+            "conf",
+            "<anonymous>",
+            "reporterObj",
+            "reporter"
+          ]
+        },
+        "length": 12,
+        "vocabulary": 10,
+        "difficulty": 3.5,
+        "volume": 39.863137138648355,
+        "effort": 139.52097998526924,
+        "bugs": 0.013287712379549451,
+        "time": 7.75116555473718
+      },
+      "params": 1,
+      "line": 57,
+      "cyclomaticDensity": 33.33333333333333
+    }
+  ],
+  "dependencies": [
+    {
+      "line": 3,
+      "path": "fs",
+      "type": "CommonJS"
+    },
+    {
+      "line": 4,
+      "path": "path",
+      "type": "CommonJS"
+    },
+    {
+      "line": 5,
+      "path": "lodash",
+      "type": "CommonJS"
+    },
+    {
+      "line": 6,
+      "path": "mkdirp",
+      "type": "CommonJS"
+    }
+  ],
+  "maintainability": 72.2873087475788,
+  "params": 1.3333333333333333,
+  "meta": {
+    "analysis": "gulp-escomplex",
+    "analysisVersion": "1.0.0",
+    "fileName": "lib/index.js"
+  }
+}
